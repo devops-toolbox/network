@@ -8,10 +8,10 @@ network: Network
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.network](https://galaxy.ansible.com/devops-toolbox.network)
+[https://galaxy.ansible.com/devopstoolbox.network](https://galaxy.ansible.com/devopstoolbox.network)
 
 ```bash
-ansible-galaxy install devops-toolbox.network
+ansible-galaxy install devopstoolbox.network
 ```
 
 Requirements
@@ -60,7 +60,7 @@ Example Playbook
   tasks:
     - name: network is configured
       import_role:
-        name: devops-toolbox.network
+        name: devopstoolbox.network
       vars:
         network_packages_state: present
         network_remove_packages: true
@@ -89,4 +89,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
